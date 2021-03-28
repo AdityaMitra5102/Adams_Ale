@@ -24,9 +24,9 @@ The project is divided into 4 parts:
 #### 3. User/Victim’s side
 - The user side application can be used in Online as well as offline modes(usually there are connectivity uses after natural calamities).
 
-|  Online Mode                                     |                                Offline Mode      |                         
-|:------------------------------------------------:|:------------------------------------------------:|
-| The online mode fetches the list of water bodies directly from the Firebase Database and uses Google Maps API to identify the nearest one and show the route to the same.                        | The offline mode sends the current GPS coordinates to the server via SMS. The cloud VM calculates the route to the nearest water source and returns the same via another SMS. The app parses the received SMS and shows the directions as a list.|  
+|  Online Mode                                         |                            Offline Mode      |                         
+|:----------------------------------------------------:|:--------------------------------------------:|
+| The online mode captures the geolocation of the user and sends it to the cloud VM. It directs the user to the nearest water source using Google Maps after receiving  the coordinates from the cloud.| The offline mode sends the current GPS coordinates to the SMS base station via a SMS message and shows the route directions to the nearest water source.|  
 
 
 #### 4. SMS Base station
