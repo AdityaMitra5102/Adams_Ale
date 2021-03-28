@@ -46,3 +46,9 @@ The SMS Base station receives the GPS coordinates of the user via SMS and sends 
 Then, the base station would be able to communicate the same to the server.
 - In further versions of the project, we aim to develop the application for Kai OS and other feature phones so that no one is deprived of the basic amenity, drinking water.
 - Backend Modification and implementation of load balancing to make Adam’s Ale available to more number of users at a time.
+
+## Note
+Installing instruction for each block of codes are added as readme files inside the respective folders
+
+## YouTube link
+https://youtu.be/1WcRKVz9bUM
