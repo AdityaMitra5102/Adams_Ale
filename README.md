@@ -34,6 +34,8 @@ The SMS Base station receives the GPS coordinates of the user via SMS and sends 
 
 ## Tech Stack
 ![](https://cdn.arduino.cc/header-footer/prod/assets/headerLogo-arduino.svg)
+![](https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.png)
+
 ...
 
 ## Future Scope
