@@ -1,9 +1,9 @@
 # Adams Ale
 **A Potable Water Location Tagging System for Victims of Natural Calamities.**
 ## Introduction
-- No one has control over any natural calamity or disaster. But, we can surely control how it affects our lives by acting fast enough. It is seen that the unavailability of potable water after a disaster is a cause of distress to many and consumption of water unfit for drinking leads to various water-borne diseases and maybe, even a pandemic.
-- The Adam’s Ale (meaning ‘Water’) project, when implemented, would be highly beneficial to people in case of disasters and natural calamities.
-- We hope to significantly reduce the post-disaster epidemics due to water-borne diseases.
+- Natural calamities can't be prevented but the impact of the disaster on life sure can be mitigated to a certain extent by taking quick remedial action.  It is seen that the unavailability of potable water after a disaster leads to consumption of water unfit for drinking rendering individuals prone to various water-borne diseases and maybe, even a full-blown pandemic in worst-case scenarios.
+- The Adam’s Ale (meaning ‘Water’) project, when implemented, would be highly beneficial to people in case of such disasters and natural calamities.
+- We hope to significantly reduce the post-disaster epidemics due to water-borne diseases through this project.
 
 ## Features
 The personnel from rescue team (referred to here as ‘Tester’) will be carrying ‘Testing Probes’ to check the quality of water in local water sources. If it is found fit for drinking, the location will be saved for the victims to consume water from that.
@@ -18,11 +18,11 @@ Victim’s mobile application will be able to identify the nearest potable water
 The project is divided into 4 parts:
 #### 1. Tester’s side
 - The testing probe will be equipped with a Multi-Sensor Array (MSA) that will be able to measure the temperature, pH, turbidity and Oxidation Reduction Potential (ORP) of the water body and follow the parameters from WHO guidelines to determine whether the water is safe for drinking.
-- If yes, it will be communicated to the tester’s phone via Bluetooth. Application there will be able to communicate the same to the server using Online / Offline (SMS) methods depending on the situation.
+- If yes, it will be communicated to the tester’s phone. Application there will be able to communicate the same to the server using online method. 
 #### 2. Cloud
-- The data (geolocations) of the water sources will be stored in a firebase database. Now as we have mentioned about offline access to the database, it is achieved by the use of a virtual machine and Twilio SMS API. Even the route calculation for offline users using Google Maps API (discussed in next slide) is done in the Virtual Machine.
+- The data (geolocations) of the water sources will be stored in a firebase database. Now, as we have mentioned about offline access to the database, it is achieved by the use of a virtual machine. Even the route calculation for offline users using Google Maps API (discussed in next slide) is done in the Virtual Machine.
 #### 3. User/Victim’s side
-- The user side application can be used in Online as well as offline modes(usually there are connectivity uses after natural calamities).
+- The user side application can be used in Online as well as offline modes(Usually, there are connectivity uses after natural calamities).
 
 |  Online Mode                                         |                            Offline Mode      |                         
 |:----------------------------------------------------:|:--------------------------------------------:|
@@ -34,9 +34,11 @@ The SMS Base station receives the GPS coordinates of the user via SMS and sends 
 
 ## Tech Stack
 ...
+
 ## Future Scope
 - As cellular network might be disrupted in case of natural calamities, even the offline way of updating the database might not work. Hence, we have decided to add Lo-Ra WAN feature to the testing probe in later versions of the project. 
 Then, the base station would be able to communicate the same to the server.
 - In further versions of the project, we aim to develop the application for Kai OS and other feature phones so that no one is deprived of the basic amenity, drinking water.
 - Backend Modification and implementation of load balancing to make Adam’s Ale available to more number of users at a time.
+
 
