@@ -20,13 +20,14 @@ The project is divided into 4 parts:
 - The testing probe will be equipped with a Multi-Sensor Array (MSA) that will be able to measure the temperature, pH, turbidity and Oxidation Reduction Potential (ORP) of the water body and follow the parameters from WHO guidelines to determine whether the water is safe for drinking.
 - If yes, it will be communicated to the tester’s phone. Application there will be able to communicate the same to the server using online method. 
 #### 2. Cloud
-- The data (geolocations) of the water sources will be stored in a firebase database. Now, as we have mentioned about offline access to the database, it is achieved by the use of a virtual machine. Even the route calculation for offline users using Google Maps API (discussed in next slide) is done in the Virtual Machine.
+- The data (geolocations) of the water sources will be stored in a firebase database. The read, write and fetch functions on the firebase database and calculation of distance and nearest water source is done in the cloud.
 #### 3. User/Victim’s side
 - The user side application can be used in Online as well as offline modes(Usually, there are connectivity uses after natural calamities).
 
 |  Online Mode                                         |                            Offline Mode      |                         
 |:----------------------------------------------------:|:--------------------------------------------:|
-| The online mode captures the geolocation of the user and sends it to the cloud VM. It directs the user to the nearest water source using Google Maps after receiving  the coordinates from the cloud.| The offline mode sends the current GPS coordinates to the SMS base station via a SMS message and shows the route directions to the nearest water source.|  
+| The online mode captures the geolocation of the user and sends it to the cloud VM. It directs the user to the nearest water source using Google Maps after receiving  the
+coordinates from the cloud.| The offline mode sends the current GPS coordinates to the SMS base station via a SMS message and shows the route directions to the nearest water source.|  
 
 
 #### 4. SMS Base station
@@ -40,5 +41,3 @@ The SMS Base station receives the GPS coordinates of the user via SMS and sends 
 Then, the base station would be able to communicate the same to the server.
 - In further versions of the project, we aim to develop the application for Kai OS and other feature phones so that no one is deprived of the basic amenity, drinking water.
 - Backend Modification and implementation of load balancing to make Adam’s Ale available to more number of users at a time.
-
-
