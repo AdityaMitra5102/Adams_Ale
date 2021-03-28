@@ -33,7 +33,7 @@ The project is divided into 4 parts:
 The SMS Base station receives the GPS coordinates of the user via SMS and sends it to the cloud. Since we are well aware of the fact that the user is offline, we are fetching route directions and sending it back via another SMS.
 
 ## Tech Stack
-![](https://cdn.arduino.cc/header-footer/prod/assets/headerLogo-arduino.svg)
+![](https://www.arduino.cc/en/uploads/Trademark/ArduinoCommunityLogo.png)
 ![](https://firebase.google.com/downloads/brand-guidelines/PNG/logo-built_white.png)
 ![](https://flutter.dev/assets/flutter-lockup-1caf6476beed76adec3c477586da54de6b552b2f42108ec5bc68dc63bae2df75.png)
 ![](https://www.equinix.com/contentAsset/raw-data/0fce45a2-82a8-430a-b7fa-03c973263939/fileAsset?language_id=1)
