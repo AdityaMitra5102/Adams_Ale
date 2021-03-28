@@ -26,8 +26,7 @@ The project is divided into 4 parts:
 
 |  Online Mode                                         |                            Offline Mode      |                         
 |:----------------------------------------------------:|:--------------------------------------------:|
-| The online mode captures the geolocation of the user and sends it to the cloud VM. It directs the user to the nearest water source using Google Maps after receiving  the
-coordinates from the cloud.| The offline mode sends the current GPS coordinates to the SMS base station via a SMS message and shows the route directions to the nearest water source.|  
+| The online mode captures the geolocation of the user and sends it to the cloud VM. It directs the user to the nearest water source using Google Maps after receiving  the coordinates from the cloud.| The offline mode sends the current GPS coordinates to the SMS base station via a SMS message and shows the route directions to the nearest water source.|  
 
 
 #### 4. SMS Base station
