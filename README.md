@@ -1,8 +1,17 @@
-# Adams Ale
-**A Potable Water Location Tagging System for Victims of Natural Calamities.**
-## Introduction
+<img src="https://github.com/IdealisticINTJ/Adam-Ale-WebApp/blob/main/banner.png">
+<p align="center">
+  <img src="https://img.shields.io/badge/arduino%20-%2343853D.svg?&style=for-the-badge&logo=arduino&logoColor=white" />&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/firebase%20-%2300D9FF.svg?&style=for-the-badge&logo=firebase&logoColor=white" />&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/flutter%20-%231572B6.svg?&style=for-the-badge&logo=flutter&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/microsft azure%20-%231572B6.svg?&style=for-the-badge&logo=azure&logoColor=white" />&nbsp;&nbsp;
+</p>
+<h2 align="center"><b><bold>A Potable Water Location Tagging System for Victims of Natural Calamities.</b></h3>
+
+
+
+## Introduction 
 - Natural calamities can't be prevented but the impact of the disaster on life sure can be mitigated to a certain extent by taking quick remedial action.  It is seen that the unavailability of potable water after a disaster leads to consumption of water unfit for drinking rendering individuals prone to various water-borne diseases and maybe, even a full-blown pandemic in worst-case scenarios.
-- The Adam’s Ale (meaning ‘Water’) project, when implemented, would be highly beneficial to people in case of such disasters and natural calamities.
+- The Adam’s Ale project, when implemented, would be highly beneficial to people in case of such disasters and natural calamities.
 - We hope to significantly reduce the post-disaster epidemics due to water-borne diseases through this project.
 
 ## Features
@@ -39,7 +48,6 @@ The SMS Base station receives the GPS coordinates of the user via SMS and sends 
 ![](https://www.equinix.com/contentAsset/raw-data/0fce45a2-82a8-430a-b7fa-03c973263939/fileAsset?language_id=1)
 ![](https://www.mapmyindia.com/blog/wp-content/uploads/2010/09/mapmyindia-logo.jpg)
 
-...
 
 ## Future Scope
 - As cellular network might be disrupted in case of natural calamities, even the offline way of updating the database might not work. Hence, we have decided to add Lo-Ra WAN feature to the testing probe in later versions of the project. 
@@ -48,7 +56,7 @@ Then, the base station would be able to communicate the same to the server.
 - Backend Modification and implementation of load balancing to make Adam’s Ale available to more number of users at a time.
 
 ## Note
-Installing instruction for each block of codes are added as readme files inside the respective folders
+Installation instructions for each block of code, are added as README files inside the respective folders.
 
 ## YouTube link
 https://youtu.be/1WcRKVz9bUM
